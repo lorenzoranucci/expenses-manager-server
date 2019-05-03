@@ -1,0 +1,22 @@
+{
+  "name": "expense-server",
+  "version": "1.0.0",
+  "description": "Server for expense-manager app",
+  "author": "Lorenzo F. Ranucci <lorenzofranco.ranucci@gmail.com>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "bootstrap",
+    "express"
+  ],
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "mongoose": "^5.5.5"
+  }
+}
